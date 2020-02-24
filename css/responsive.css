@@ -1,0 +1,490 @@
+/*mode PC(Mac Book Pro)*/
+@media screen and (min-width: 1025px){
+	body{
+		margin: 0;
+		padding: 0;
+		width: 1440px;
+	}
+
+	header{
+		width: 100%;
+		height: 780px;
+		background-image: url('../img/header.png');
+		background-size: 100%;
+		background-repeat: no-repeat;
+	}
+
+	#aboutme{
+		width: 100%;
+		height: 780px;
+	}
+
+	.about{
+		width: 12%;
+		height: 170px;
+	}
+
+	nav{
+		width: 100%;
+		height: 150px;
+	}
+
+	nav img{
+		width: 15%;
+	}
+
+	#aboutme h4{
+		display: none;
+	}
+
+	.tb-skills{
+		display: none;
+	}
+
+	.tb-about{
+		display: none;
+	}
+
+	.bg-01{
+		width: 100%;
+	}
+
+	.bg-01 img{
+		width: 100%;
+	}
+
+	#Illustration img{
+		width: 25%;
+	}
+
+	#Graphic img{
+		width: 25%;
+	}
+
+	#Web figure{
+		width: 35%;
+		height: 300px;
+	}
+
+	.mac-book{
+		width: 100%;
+	}
+
+	#Web figcaption{
+		width: 80%;
+		height: 245px;
+	}
+
+	.sample-site{
+		width: 95.8%;
+		height: 240px;
+	}
+
+	.mb-container{
+		display: none;
+	}
+
+	.bg-02{
+		width: 100%;
+	}
+
+	.bg-02 img{
+		width: 100%;
+	}
+
+	#footer{
+		width: 100%;
+		height: 1090px;
+	}
+
+	.tb-tw{
+		display: none;
+	}
+
+	.tb-fb{
+		display: none;
+	}
+}
+
+/*mode tablet(iPad mini)*/
+@media screen and (max-width: 1024px){
+	body{
+		margin: 0;
+		padding: 0;
+		width: 1024px;
+	}
+
+	header{
+		width: 100%;
+		height: 768px;
+		background-image: url('../img/header.png');
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+	header h2{
+		margin-top: 30%;
+		margin-left: 40%;
+		width: 30%;
+	}
+
+	header h3{
+		margin-left: 39%;
+	}
+
+	#aboutme{
+		width: 100%;
+		height: 768px;
+	}
+
+	nav{
+		width: 100%;
+		height: 100px;
+	}
+
+	nav img{
+		padding-left: 3%;
+		width: 10%;
+	}
+
+	nav li{
+		padding-top: 5%;
+	}
+
+	.fb-icon{
+		display: none;
+	}
+
+	.tw-icon{
+		display: none;
+	}
+
+	#aboutme h3{
+		display: none;
+	}
+
+	.skills{
+		display: none;
+	}
+
+	.about{
+		display: none;
+	}
+
+	#aboutme h4{
+		margin-top: 25%;
+		margin-left: 3%;
+		width: 43%;
+		font-family: "source-han-sans-japanese";
+		font-size: 12px;
+		color: #fff;
+		text-align: center;
+	}
+
+	.tb-skills{
+		margin-top: -33%;
+		margin-left: 55%;
+		width: 35%;
+		height: 290px;
+	}
+
+	.tb-about{
+		margin-top: -40%;
+		margin-left: 15%;
+		width: 15%;
+		height: 170px;
+	}
+
+	.bg-01{
+		width: 100%;
+	}
+
+	.bg-01 img{
+		width: 100%;
+	}
+
+	.gl-container{
+		width: 100%;
+		height: 1960px;
+	}
+
+	#Illustration img{
+		margin-top: -30%;
+		margin-left: 65%;
+	}
+
+	#Graphic h3{
+		margin-left: 48%;
+	}
+
+	#Graphic img{
+		margin-top: -30%;
+		margin-left: 15%;
+		width: 30%;
+	}
+
+	#Web h2{
+		padding-top: 15%;
+	}
+	#Web h3{
+		margin-left: 7%;
+	}
+
+	#Web h4{
+		padding-top: 3%;
+		padding-left: 45%;
+	}
+
+	#Web a{
+		margin-left: -20%;
+	}
+
+	#Web figure{
+		margin-top: -20%;
+		margin-left: 60%;
+	}
+
+	#Web figcaption{
+		height: 174px;
+	}
+
+	.sample-site{
+		height: 171px;
+	}
+
+	.mb-container{
+		display: none;
+	}
+
+	.bg-02{
+		width: 100%;
+	}
+
+	.bg-02 img{
+		width: 100%;
+	}
+
+	footer{
+		width: 100%;
+		height: 950px;
+	}
+
+	.message{
+		width: 103.5%;
+	}
+
+	.tb-tw{
+		padding-left: 17%;
+		float: left;
+	}
+
+	.tb-fb{
+		padding-left: 27%;
+	}
+
+	.submit{
+		margin-left: 5%;
+	}
+}
+
+/*mode mobile(iPhone6s)*/
+@media screen and (max-width: 750px){
+	body{
+		margin: 0;
+		padding: 0;
+		width: 750px;
+	}
+
+	header{
+		width: 100%;
+		height: 1334px;
+		background-image: url('../img/header.png');
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+	header h2{
+		margin-top: 65%;
+		margin-left: 30%;
+		width: 46%;
+		font-size: 35px;
+	}
+
+	header h3{
+		margin-left: 15%;
+		width: 70%;
+	}
+
+	nav{
+		display: none;
+	}
+
+	#aboutme{
+		display: none;
+	}
+
+	.bg-01{
+		display: none;
+	}
+
+	.gl-container{
+		position: relative;
+		top: 149px;
+		left: 0;
+		width: 100%;
+		height: 1541px;
+	}
+
+	#Illustration{
+		display: none;
+	}
+
+	#Graphic{
+		display: none;
+	}
+
+	#Web{
+		display: none;
+	}
+
+	.mb-container{
+		width: 100%;
+		height: 1010px;
+		display: block;
+	}
+
+	.mb-container h2{
+		padding-top: 20%;
+		font-family: 'PT Sans Narrow', sans-serif;
+		font-size: 36px;
+		color: #fff;
+		text-align: center;
+	}
+
+	.mb-container a{
+		text-decoration: none;
+	}
+
+	.mb-container img{
+		width: 50%;
+	}
+
+	.mb-about{
+		margin-top: 10%;
+		cursor: pointer;
+		float: left;
+	}
+
+	.mb-ai{
+		margin-top: 10%;
+		cursor: pointer;
+	}
+
+	.mb-ps{
+		cursor: pointer;
+		float: left;
+	}
+
+	.mb-html{
+		cursor: pointer;
+	}
+
+	.mb-contact{
+		cursor: pointer;
+	}
+
+	.bg-02{
+		margin-top: 19%;
+		width: 100%;
+	}
+
+	.bg-02 img{
+		width: 100%;
+	}
+
+	#footer{
+		width: 100%;
+		height: 1370px;
+	}
+
+	#footer h3{
+		font-size: 25px;
+		line-height: 25px;
+		font-weight: 100;
+		color: #fff;
+	}
+
+	table.formTable{
+		margin-left: 15%;
+		width: 80%;
+	}
+
+	table.formTable td{
+		width: 80%;
+	}
+
+	.name{
+		font-size: 25px;
+		width: 80%;
+		height: 30px;
+	}
+
+	.number{
+		font-size: 25px;
+		width: 80%;
+		height: 30px;
+	}
+
+	.address{
+		font-size: 25px;
+		width: 80%;
+		height: 30px;
+	}
+
+	.message{
+		font-size: 25px;
+		width: 84%;
+		height: 400px;
+	}
+
+	.submit{
+		margin-left: 6%;
+		width: 25%;
+		height: 50px;
+		font-size: 25px;
+	}
+
+	.reset{
+		width: 25%;
+		height: 50px;
+		font-size: 25px;
+	}
+
+	#footer ul{
+		margin-top: 9%;
+		margin-left: 25%;
+	}
+
+	.tb-tw{
+		padding-left: 26%;
+	}
+
+	.tb-fb{
+		padding-left: 42%;
+	}
+
+	.ph-me{
+		margin-top: 5%;
+		margin-left: 6%;
+	}
+
+	.ml-me{
+		margin-top: 5%;
+		margin-left: 3%;
+	}
+
+	#footer small{
+		margin-top: 10%;
+		padding-left: 27%;
+	}
+}

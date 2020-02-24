@@ -1,0 +1,879 @@
+@media screen and (min-width: 1440px){
+	body{
+		margin: 0;
+		padding: 0;
+		width: 1440px;
+		/*background-color: #76b18d;*/
+	}
+
+	.siteWrap {
+	  width: 100%;
+		height: 780px;
+	  position: relative;
+	}
+
+	.will-animate {
+	  visibility: hidden;
+	}
+
+	.textMask {
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  width: 100%;
+	  height: 100%;
+	}
+	.textMask__svg {
+	  width: 100%;
+	  height: 625px;
+	  position: relative;
+	}
+	.textMask__textWrap {
+	  /* text-anchor: middle; */
+	}
+	.textMask__title {
+	  font-weight: 900;
+	  font-size: 3em;
+	  text-transform: uppercase;
+	}
+
+	.textMask__mask {
+	  font-weight: 900;
+	}
+	.textMask text {
+	  /* text-anchor: middle; */
+		font-family: "Sacramento",cursive;
+		font-weight: 900;
+		font-size: 3em;
+	}
+	.textMask__alpha {
+	  fill: #fff;
+	  -webkit-transition: opacity .6s ease;
+	  transition: opacity .6s ease;
+	}
+	.textMask__base {
+	  fill: #fff;
+	  -webkit-mask: url(#mask);
+	          mask: url(#mask);
+	  -webkit-transition: opacity .6s ease;
+	  transition: opacity .6s ease;
+	}
+
+	.siteTitle {
+	  position: absolute;
+	  top: 50%;
+	  width: 100%;
+	  text-align: center;
+	  -webkit-transform: translateY(-50%);
+	          transform: translateY(-50%);
+	  line-height: 1;
+	  margin: 0;
+	  color: #fff;
+		font-family: "Sacramento",cursive;
+	  font-size: 3em;
+	  font-weight: 900;
+	  text-transform: uppercase;
+	}
+
+	.bgImage {
+	  width: 100%;
+		height: 780px;
+		background: url('../img/wb-bg.png');
+	  background-position: center left;
+		/*background-blend-mode: screen;*/
+		/*linear-gradient(45deg, #30333b 0%, #809aaf 49%, #76b18d 100%), */
+	  background-size: cover;
+	  position: relative;
+		top: -100%;
+		left: 0;
+	  z-index: -1;
+	}
+
+	#container{
+		position: relative;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 3700px;
+		background-color: #76b18d;
+	}
+
+	#container h2{
+		padding-top: 10%;
+		font-size: 40px;
+		font-family: "Sacramento",cursive;
+		font-weight: 100;
+		color: #fff;
+		text-align: center;
+	}
+
+	.Portraito{
+		width: 100%;
+	}
+
+	.Portraito h2{
+		font-size: 30px;
+		font-family: "Sacramento",cursive;
+		font-weight: 100;
+		color: #fff;
+		text-align: center;
+	}
+	.pc-01{
+		margin-top: 10%;
+		margin-left: 10%;
+		width: 35%;
+		height: 300px;
+		float: left;
+	}
+
+	.mac-book{
+		width: 100%;
+	}
+
+	.pc-img01{
+		margin-top: -56%;
+		margin-left: 10%;
+		width: 80%;
+		height: 245px;
+	}
+
+	.sample-site{
+		margin-top: 1%;
+		margin-left: 2.1%;
+		width: 95.8%;
+		height: 240px;
+	}
+
+	.Portraito h3{
+		padding-top: 15%;
+		font-size: 18px;
+		font-family: 'Poiret One', cursive;
+		font-weight: 100;
+		color: #fff;
+		text-align: center;
+	}
+
+	.tb-01{
+		position: absolute;
+		top: 18%;
+		left: 30%;
+		width: 22%;
+		height: 215px;
+	}
+
+	.ipad{
+		width: 100%;
+	}
+
+	.tb-img01{
+		margin-top: -56%;
+		margin-left: 10%;
+		width: 80%;
+		height: 245px;
+	}
+
+	.tablet-mode{
+		margin-top: -11%;
+		width: 100%;
+	}
+
+	.Portraito a {
+		box-sizing: border-box;
+	  outline: 1px solid #fff;
+	  border: 1px solid #76b18d;
+	  background: transparent;
+	  background-image: -webkit-linear-gradient(left, #fff, #fff 50%, transparent 50%, transparent), -webkit-linear-gradient(left, transparent, transparent 50%, #fff 50%, #fff);
+	  background-image: linear-gradient(left, #fff, #fff 50%, transparent 50%, transparent), linear-gradient(left, transparent, transparent 50%, #fff 50%, #fff);
+	  background-size: 200% 100%, 200% 100%;
+	  background-position: right, left;
+	  -webkit-transition: background-position 0.5s ease, color 0.25s ease;
+	  transition: background-position 0.5s ease, color 0.25s ease;
+		text-decoration: none;
+		font-size: 18px;
+		font-family: 'Poiret One',cursive;
+		font-weight: 100;
+		color: #fff;
+		text-align: center;
+		margin-top: 3%;
+		margin-left: 30%;
+		padding: 15px 50px;
+		display: inline-block;
+	}
+
+	.Portraito a:hover {
+	  background-position: left, right;
+	  color: #76b18d;
+	}
+
+	.ao{
+		margin-top: 15%;
+		width: 100%;
+	}
+
+	.ao h2{
+		font-size: 30px;
+		font-family: "Sacramento",cursive;
+		font-weight: 100;
+		color: #fff;
+		text-align: center;
+	}
+
+	.ao h3{
+		margin-top: -16%;
+		margin-left: 10%;
+		font-size: 18px;
+		font-family: 'Poiret One', cursive;
+		font-weight: 100;
+		color: #fff;
+		text-align: center;
+		display: inline-block;
+		float: left;
+	}
+
+	.pc-02{
+		margin-top: 10%;
+		margin-left: 54%;
+		width: 35%;
+		height: 300px;
+	}
+
+	.mac-book{
+		width: 100%;
+	}
+
+	.pc-img02{
+		margin-top: -56%;
+		margin-left: 10%;
+		width: 80%;
+		height: 245px;
+	}
+
+	.pc-mode{
+		margin-top: 1%;
+		margin-left: 2.1%;
+		width: 95.8%;
+		height: 240px;
+	}
+
+	.tb-02{
+		position: absolute;
+		top: 40%;
+		left: 74%;
+		width: 22%;
+		height: 215px;
+	}
+
+	.ipad{
+		width: 100%;
+	}
+
+	.tb-img02{
+		margin-top: -56%;
+		margin-left: 10%;
+		width: 80%;
+		height: 245px;
+	}
+
+	.tablet-mode{
+		margin-top: -11%;
+		width: 100%;
+	}
+
+	.mb-01{
+		position: absolute;
+		top: 40%;
+		left: 50%;
+		width: 10%;
+	}
+
+	.iphone{
+		width: 100%;
+	}
+
+	.mb-img01{
+		margin-top: -188%;
+		margin-left: 4%;
+		width: 91%;
+	}
+
+	.mobile-mode{
+		width: 100%;
+		height: 233px;
+	}
+
+	.ao a {
+		box-sizing: border-box;
+	  outline: 1px solid #fff;
+	  border: 1px solid #76b18d;
+	  background: transparent;
+	  background-image: -webkit-linear-gradient(left, #fff, #fff 50%, transparent 50%, transparent), -webkit-linear-gradient(left, transparent, transparent 50%, #fff 50%, #fff);
+	  background-image: linear-gradient(left, #fff, #fff 50%, transparent 50%, transparent), linear-gradient(left, transparent, transparent 50%, #fff 50%, #fff);
+	  background-size: 200% 100%, 200% 100%;
+	  background-position: right, left;
+	  -webkit-transition: background-position 0.5s ease, color 0.25s ease;
+	  transition: background-position 0.5s ease, color 0.25s ease;
+		text-decoration: none;
+		font-size: 18px;
+		font-family: 'Poiret One',cursive;
+		font-weight: 100;
+		color: #fff;
+		text-align: center;
+		margin-top: 0%;
+		margin-left: 10%;
+		padding: 15px 50px;
+		display: inline-block;
+	}
+
+	.ao a:hover {
+	  background-position: left, right;
+	  color: #76b18d;
+	}
+
+	.bar{
+		margin-top: 15%;
+		width: 100%;
+	}
+
+	.bar h2{
+		font-size: 30px;
+		font-family: "Sacramento",cursive;
+		font-weight: 100;
+		color: #fff;
+		text-align: center;
+	}
+
+	.pc-03{
+		margin-top: 10%;
+		margin-left: 10%;
+		width: 35%;
+		height: 300px;
+		float: left;
+	}
+
+	.mac-book{
+		width: 100%;
+	}
+
+	.pc-img03{
+		margin-top: -56%;
+		margin-left: 10%;
+		width: 80%;
+		height: 245px;
+	}
+
+	.pc-mode{
+		margin-top: 1%;
+		margin-left: 2.1%;
+		width: 95.8%;
+		height: 240px;
+	}
+
+	.bar h3{
+		margin-top: 15%;
+		margin-left: 10%;
+		font-size: 18px;
+		font-family: 'Poiret One', cursive;
+		font-weight: 100;
+		color: #fff;
+		text-align: center;
+		display: inline-block;
+	}
+
+	.bar a {
+		box-sizing: border-box;
+	  outline: 1px solid #fff;
+	  border: 1px solid #76b18d;
+	  background: transparent;
+	  background-image: -webkit-linear-gradient(left, #fff, #fff 50%, transparent 50%, transparent), -webkit-linear-gradient(left, transparent, transparent 50%, #fff 50%, #fff);
+	  background-image: linear-gradient(left, #fff, #fff 50%, transparent 50%, transparent), linear-gradient(left, transparent, transparent 50%, #fff 50%, #fff);
+	  background-size: 200% 100%, 200% 100%;
+	  background-position: right, left;
+	  -webkit-transition: background-position 0.5s ease, color 0.25s ease;
+	  transition: background-position 0.5s ease, color 0.25s ease;
+		text-decoration: none;
+		font-size: 18px;
+		font-family: 'Poiret One',cursive;
+		font-weight: 100;
+		color: #fff;
+		text-align: center;
+		margin-top: 3%;
+		margin-left: 30%;
+		padding: 15px 50px;
+		display: inline-block;
+	}
+
+	.bar a:hover {
+	  background-position: left, right;
+	  color: #76b18d;
+	}
+
+	.group{
+		margin-top: 15%;
+		width: 100%;
+	}
+
+	.group h2{
+		font-size: 30px;
+		font-family: "Sacramento",cursive;
+		font-weight: 100;
+		color: #fff;
+		text-align: center;
+	}
+
+	.group h3{
+		margin-top: -16%;
+		margin-left: 10%;
+		font-size: 18px;
+		font-family: 'Poiret One', cursive;
+		font-weight: 100;
+		color: #fff;
+		text-align: center;
+		display: inline-block;
+		float: left;
+	}
+
+	.pc-04{
+		margin-top: 10%;
+		margin-left: 54%;
+		width: 35%;
+		height: 300px;
+	}
+
+	.mac-book{
+		width: 100%;
+	}
+
+	.pc-img04{
+		margin-top: -56%;
+		margin-left: 10%;
+		width: 80%;
+		height: 245px;
+	}
+
+	.pc-mode{
+		margin-top: 1%;
+		margin-left: 2.1%;
+		width: 95.8%;
+		height: 240px;
+	}
+
+	.group a {
+		box-sizing: border-box;
+	  outline: 1px solid #fff;
+	  border: 1px solid #76b18d;
+	  background: transparent;
+	  background-image: -webkit-linear-gradient(left, #fff, #fff 50%, transparent 50%, transparent), -webkit-linear-gradient(left, transparent, transparent 50%, #fff 50%, #fff);
+	  background-image: linear-gradient(left, #fff, #fff 50%, transparent 50%, transparent), linear-gradient(left, transparent, transparent 50%, #fff 50%, #fff);
+	  background-size: 200% 100%, 200% 100%;
+	  background-position: right, left;
+	  -webkit-transition: background-position 0.5s ease, color 0.25s ease;
+	  transition: background-position 0.5s ease, color 0.25s ease;
+		text-decoration: none;
+		font-size: 18px;
+		font-family: 'Poiret One',cursive;
+		font-weight: 100;
+		color: #fff;
+		text-align: center;
+		margin-top: -10%;
+		margin-left: 10%;
+		padding: 15px 50px;
+		display: inline-block;
+	}
+
+	.group a:hover {
+	  background-position: left, right;
+	  color: #76b18d;
+	}
+
+	.to-top{
+		margin-top: 10%;
+		margin-left: 78%;
+		width: 10%;
+	}
+
+	.to-top a{
+		text-decoration: none;
+	}
+
+	.to-top img{
+		width: 100%;
+	}
+	.to-top p{
+		font-family: 'Poiret One', cursive;
+		font-size: 18px;
+		color: #fff;
+		text-align: center;
+	}
+
+	#container small{
+		padding-left: 40%;
+		font-family: 'Sacramento', cursive;
+		font-size: 18px;
+		font-weight: 100;
+		color: #fff;
+		text-align: center;
+		display: inline-block;
+	}
+
+	#container span{
+		color: #efe9b7;
+	}
+}
+
+@media screen and (max-width: 1024px){
+	body{
+		margin: 0;
+		padding: 0;
+		width: 1024px;
+	}
+
+	.siteWrap{
+		width: 100%;
+		height: 768px;
+		position: relative;
+	}
+
+	.will-animate{
+		visibility: hidden;
+	}
+
+	.textMask{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+
+	.textMask__svg{
+		width: 100%;
+		height: 625px;
+		position: relative;
+	}
+
+	.textMask__alpha{
+		width: 100%;
+	}
+
+	.textMask__base{
+		width: 100%;
+	}
+
+	.bgImage{
+		width: 100%;
+		height: 768px;
+	}
+
+	#container{
+		position: relative;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 3030px;
+	}
+
+	.Portraito{
+		width: 100%;
+		height: 570px;
+	}
+
+	.pc-01{
+		width: 40%;
+		height: 245px;
+	}
+
+	.sample-site{
+		margin-top: 0.6%;
+		height: 195px;
+	}
+
+	.Portraito h3{
+		margin-top: 15%;
+		margin-left: 50%;
+		padding: 0;
+		width: 50%;
+		display: block;
+	}
+
+	.tb-01{
+		top: 17%;
+	}
+
+	.Portraito a{
+		margin-left: 15%;
+	}
+
+	.ao{
+		width: 100%;
+	}
+
+	.pc-02{
+		width: 40%;
+	}
+
+	.pc-mode{
+		margin-top: 0.9%;
+		height: 195px;
+	}
+
+	.ao h3{
+		margin-top: -25%;
+		margin-left: 5%;
+		width: 50%;
+	}
+
+	.tb-02{
+		top: 42%;
+		left: 76%;
+	}
+
+	.tablet-mode{
+		height: 136px;
+	}
+
+	.mb-01{
+		top: 41%;
+		left: 55%;
+	}
+
+	.iphone{
+		height: 200px;
+	}
+
+	.mobile-mode{
+		margin-left: 0.2%;
+		height: 166px;
+	}
+
+	.ao a{
+		margin-left: 20%;
+	}
+
+	.bar{
+		width: 100%;
+	}
+
+	.pc-03{
+		width: 40%;
+	}
+
+	.bar h3{
+		margin-top: 15%;
+		margin-left: 50%;
+		width: 50%;
+		display: block;
+	}
+
+	.bar a{
+		margin-left: 17%;
+	}
+
+	.group{
+		width: 100%;
+	}
+
+	.pc-04{
+		width: 40%;
+	}
+
+	.group h3{
+		margin-top: -22%;
+	}
+
+	.group a{
+		position: absolute;
+		top: 94%;
+		left: 12%;
+	}
+
+	.to-top{
+		margin-top: 5%;
+	}
+
+	#container small{
+		padding-left: 35%;
+	}
+}
+
+@media screen and (max-width: 750px){
+	body{
+		margin: 0;
+		padding: 0;
+		width: 750px;
+	}
+
+	.siteWrap{
+		width: 100%;
+		height: 768px;
+		position: relative;
+	}
+
+	.will-animate{
+		visibility: hidden;
+	}
+
+	.textMask{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+
+	.textMask__svg{
+		width: 100%;
+		height: 625px;
+		position: relative;
+	}
+
+	.textMask__alpha{
+		width: 100%;
+	}
+
+	.textMask__base{
+		width: 100%;
+	}
+
+	.bgImage{
+		width: 100%;
+		height: 768px;
+		background-size: cover;
+	}
+
+	#container{
+		position: relative;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 4200px;
+	}
+
+	.Portraito{
+		width: 100%;
+	}
+
+	.pc-01{
+		margin-left: 18%;
+		width: 65%;
+		height: 295px;
+	}
+
+	.sample-site{
+		margin-top: 0.7%;
+		height: 233px;
+	}
+
+	.Portraito h3{
+		margin-top: 65%;
+		margin-left: 25%;
+		font-size: 21px;
+	}
+
+	.tb-01{
+		width: 35%;
+		top: 12%;
+		left: 60%;
+	}
+
+	.tablet-mode{
+		margin-left: 0.5%;
+		height: 159px;
+	}
+
+	.Portraito a{
+		margin-left: 37%;
+	}
+
+	.ao{
+		margin-top: 60%;
+		width: 100%;
+	}
+
+	.pc-02{
+		margin-left: 18%;
+		width: 65%;
+	}
+
+	.pc-mode{
+		margin-top: 0.8%;
+		height: 233px;
+	}
+
+	.ao h3{
+		margin-top: 20%;
+		margin-left: 25%;
+	}
+
+	.tb-02{
+		top: 36%;
+		left: 60%;
+		width: 35%;
+	}
+
+	.mb-01{
+		top: 33%;
+		left: 15%;
+		width: 20%;
+		height: 324px;
+	}
+
+	.iphone{
+		height: 324px;
+	}
+
+	.mobile-mode{
+		margin-top: -5%;
+		height: 248px;
+	}
+
+	.ao a{
+		margin-top: 5%;
+		margin-left: 36%;
+	}
+
+	.bar{
+		width: 100%;
+	}
+
+	.pc-03{
+		margin-left: 18%;
+		width: 65%;
+	}
+	.bar h3{
+		margin-top: 60%;
+		margin-left: 27%;
+	}
+
+	.bar a{
+		margin-left: 38%;
+	}
+
+	.group{
+		width: 100%;
+	}
+
+	.pc-04{
+		margin-left: 17%;
+		width: 65%;
+	}
+
+	.group h3{
+		margin-top: 10%;
+		margin-left: 20%;
+	}
+
+	.group a{
+		top: 95%;
+		left: 25%;
+	}
+
+	.to-top{
+		margin-top: 50%;
+		width: 20%;
+	}
+
+	#container small{
+		padding-left: 25%;
+		font-size: 21px;
+	}
+}
